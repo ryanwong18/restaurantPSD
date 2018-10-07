@@ -1,0 +1,24 @@
+@mixin button($back-color) {
+    font-size:2rem;
+    background-color:$back-color;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius:30px;
+    border:1px solid $back-color;
+    font-weight:400;
+    padding:5px 10px;
+}
+
+@mixin buttonlink($font-color) {
+    color:$font-color;
+    padding:10px;
+    text-decoration: none;
+}
+
+@mixin links($font-color) {
+    color:$font-color;
+    text-transform: uppercase;
+    font-size:1.5rem;
+    text-decoration:none;
+    padding:10px 20px;
+}
