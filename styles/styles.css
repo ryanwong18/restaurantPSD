@@ -651,7 +651,8 @@ footer {
     -ms-flex-align: center;
     align-items: center; }
     .events .sample-grid div {
-      margin: 10px; }
+      margin: 10px;
+      width: calc(100% - 20px); }
   .events .overlay {
     top: -10px;
     left: -10px;
@@ -749,6 +750,8 @@ footer {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center; }
+  .blog .blog-grid > div {
+    margin-right: 0; }
   .blog div {
     text-align: center;
     margin-bottom: 30px; } }

@@ -575,6 +575,7 @@ footer {
 
             div {
                 margin:10px;
+                width:calc(100% - 20px);
             }
         }
         .overlay {
@@ -682,6 +683,10 @@ footer {
             flex-direction: column;
             align-items: center;
             justify-content: center;
+        }
+
+        .blog-grid > div {
+            margin-right:0;
         }
 
         div {
